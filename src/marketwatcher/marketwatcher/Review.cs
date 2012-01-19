@@ -1,6 +1,6 @@
 using System;
 
-namespace marketplace.review.fetcher
+namespace marketwatcher
 {
     public class Review
     {
