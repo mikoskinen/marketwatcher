@@ -1,0 +1,15 @@
+h2. Marketwatcher
+
+Marketwatcher is a library for Windows Phone 7 which can be used to fetch application reviews from the Windows Phone Marketplace. It is licensed with MIT, so you can use the library anyway you want.
+
+h2. Usage
+
+The repository contains a sample app which can used to check out how the library is used. 
+
+h2. Implementation
+
+Marketwatcher uses the Reactive Extensions. It may be that the RX is dropped at some point in favor of a implementation which doesn’t require any other DLLs. The library also references System.ServiceModel.Syndication which is used to parse the review data. The referenced dlls are included in the repository.
+
+h2. Nuget
+
+The Nuget package is coming!

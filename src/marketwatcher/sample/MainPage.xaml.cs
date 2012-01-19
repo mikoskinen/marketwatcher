@@ -29,11 +29,10 @@ namespace sample
         {
             var fetcher = new Fetcher();
 
-            var reviews = new ObservableCollection<Review>();
-
-            Items.ItemsSource = reviews;
-
             progressIndicator.IsVisible = true;
+
+            var reviews = new ObservableCollection<Review>();
+            Items.ItemsSource = reviews;
 
             fetcher.FetchReviewsForApp(this.Appid.Text)
                 .ObserveOn(SynchronizationContext.Current)
